@@ -9,7 +9,7 @@ TThis is a C program that encrypts files using an XOR-based cipher. A user-provi
 
 *Download the source.c code provided in the repository.
 
-*Compile the code using """ gcc -o source source.c """
+*Compile the code using ''' gcc -o source source.c '''
 
 
 
