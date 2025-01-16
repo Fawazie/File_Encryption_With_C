@@ -1,16 +1,17 @@
-# My Portfolio Website
-This website is a passion project of mine that allowed me to learn and refine my skills and also provides somewhere for me to showcase my skill set and ability to bring concepts in my mind to life.  
-
-**Link to project:** (https://www.fawazab.com/)
-
-<img width="1342" alt="Screenshot 2024-02-04 at 10 14 17 PM" src="https://github.com/Fawazie/Resume-Website/assets/78445573/d6950b04-d471-4a8d-8e59-7f289df8058a">
+# File Encryption With C
+TThis is a C program that encrypts files using an XOR-based cipher. A user-provided key generates a bitmask by summing its ASCII values. Each input character is then XORed with the generated bitmask for encryption. The program reads from a standard input, encrypts the data, and then outputs the data.
 
 
-## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript.
+## How to Use:
 
-The website uses the basics of CSS and Python while incorporating web kits to make the page vibrant and immersive. 
+**Tech used:** C.
+
+*Download the source.c code provided in the repository.
+
+*Compile the code using """ gcc -o source source.c """
+
+
 
 ## Optimizations
 
