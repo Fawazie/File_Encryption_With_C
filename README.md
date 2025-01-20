@@ -11,7 +11,6 @@ The encryption and decryption tools can be compiled with.
 ```
 gcc encrypt.c -o encrypt
 gcc decrypt.c -o decrypt
-
 ```
 Create the file that will be encrypted. This can be a text file or any other format.
 
@@ -19,7 +18,6 @@ Encrypt the file using
 
 ```
 ./encrypt <secret_file>
-
 ```
 After encrypting the file, you will be given the encrypted file along with the key file.
 
