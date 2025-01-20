@@ -7,38 +7,32 @@ This is a C program that encrypts files using an XOR-based cipher. A user-provid
 
 Download the source.c code provided in the repository.
 
-Compile the code using. 
+The encryption and decryption tools can be compiled with. 
 ```
-gcc -o source source.c
+gcc encrypt.c -o encrypt
+gcc decrypt.c -o decrypt
 ```
 Create the file that will be encrypted. This can be a text file or any other format.
 
-Run the file using
+Encrypt the file using
 
 ```
-./source my_key < secret.txt > enc_secret.txt
+./encrypt <secret_file>
 ```
-The key can be anything, but in my case, it is "my_key"
-
-The file enc_secret.txt can be opened and it will be unreadable data.
+After encrypting the file, you will be given the encrypted file along with the key file.
 
 To decrypt the file, use the code below. 
 
 ```
-./source my_key < enc_secret.txt > dec_secret.txt
+./decrypt <encrypted_file> <key_file>
 ```
 The dec_secret file can be opened and should have the same data.
 
-You can test the effectiveness of the code by trying to decrypt the file with the wrong key using. the code below and opening the file
-```
-./source wrong_key < enc_secret.txt > dec_secret_wk.txt
-```
-I've attached all the original message files, as well as encrypted and decrypted files for reference purposes in the repo.
+You can test the effectiveness of the code by trying to decrypt the file with the wrong key
+
+I've attached all the original message files and encrypted and decrypted files for reference purposes in the repo.
 
 
-## Optimizations
-
-This project can be optimized by using a secure algorithm like ASE and a hash function like SHA-256 for processing. Libraries like OpenSSL can also be included to enhance security and reduce vulnerabilities
 
 
 
